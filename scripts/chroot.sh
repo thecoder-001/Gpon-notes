@@ -1,6 +1,8 @@
 #!/bin/bash
-#root into a rootfs for the same architecture
+#
+# chroot into a rootfs for the same architecture
 # usage: sudo ./do_chroot rootdir
+# from https://gist.github.com/tryp/2001338
 
 echo chrooting into $1
 mkdir -p $1/proc
